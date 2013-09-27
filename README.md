@@ -19,9 +19,9 @@ and fill within config.json's params.
 
 That's it! You can run command freely below this.
 
-+ python s3.py put filename # put file to s3 from.
-+ python s3.py delete filename # delete file from your bucket.
-+ python s3.py show  # show all your config.buckets items.
+     python s3.py put filename # put file to s3 from.
+     python s3.py delete filename # delete file from your bucket.
+     python s3.py show  # show all your config.buckets items.
 
 
 
