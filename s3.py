@@ -7,6 +7,8 @@ import boto
 import StringIO
 import mimetypes
 import json
+import multiprocessing
+import Queue
 from boto.cloudfront.origin import S3Origin
 boto.set_stream_logger('boto')
 CONN = None
